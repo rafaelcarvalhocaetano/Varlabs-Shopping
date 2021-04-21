@@ -1,0 +1,15 @@
+<div class="container-empty" *ngIf="!(listItem$ | async).length">
+  <h1>Vazio</h1>
+  <mat-icon class="icon">work_off</mat-icon>
+</div>
+
+<div class="row" *ngIf="(listItem$ | async).length">
+  <ul class="column">
+    <li class="item-product" *ngFor="let item of listItem$ | async">
+      <app-card-car [product]="item" (removeElementOfCar)="removedElement($event)"></app-card-car>
+    </li>
+  </ul>
+  <div class="finish-payment">
+
+  </div>
+</div>

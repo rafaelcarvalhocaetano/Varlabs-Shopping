@@ -1,0 +1,166 @@
+
+.container {
+  display: flex;
+  height: 140px;
+  border: 1px solid #43c999;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 14px;
+  border-radius: 5px;
+  .image-and-description {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: start;
+    .image-product {
+      width: 150px;
+      height: 130px;
+      border-radius: 4px;
+    }
+    .container-description {
+      height: 100px;
+      width: 70%;
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .description-store-car {
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+      .btn-clear {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        color: #d7434c;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+        &:active {
+          opacity: 0.7;
+        }
+        span {
+          color: #d7434c;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+
+  .row-car {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    .count-value {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .value-total {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #43c999;
+      }
+      .totalAmount {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+    .removed-or-added {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      .added, .removed {
+        width: 30px;
+        height: 35px;
+        background-color: #43c999;
+        font-weight: bold;
+        font-size: 16px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &:active {
+          background-color: #FFFFFF;
+          color: #43c999;
+          border: 1px solid #43c999;
+        }
+      }
+      .total {
+        margin: 0 5px;
+        width: 80px;
+        height: 35px;
+        border: 1px solid #43c999;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 4px;
+        font-weight: bold;
+        &:focus {
+          outline: none;
+        }
+        /* Chrome, Safari, Edge, Opera */
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        /* Firefox */
+        input[type=number] {
+          -moz-appearance: textfield;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 14px;
+    .image-and-description {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      .image-product {
+        width: 200px;
+        height: 200px;
+      }
+      .container-description {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 10px 0;
+        .description-store-car {
+          margin: 10px 0;
+        }
+        // .btn-clear {
+        //   margin-top: 20px;
+        // }
+      }
+
+    }
+    .row-car {
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      .count-value {
+        .value-total {
+          font-size: 16px;
+        }
+        .totalAmount {
+          font-size: 12px;
+        }
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "type": "pants",
+      "gender": "feminine",
+      "description": "Calça de moletom jogger feminina cintura alta new york com bolsos cinza mescla claro",
+      "images": [
+        {
+          "id": 1,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659665-1000-1200/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_1.jpg?v=637511816284300000"
+        },
+        {
+          "id": 2,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659667-92-110/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_2.jpg?v=637511816287130000"
+        },
+        {
+          "id": 3,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659668-92-110/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_3.jpg?v=637511816289930000"
+        },
+        {
+          "id": 4,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659669-92-110/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_4.jpg?v=637511816295700000"
+        },
+        {
+          "id": 5,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659670-92-110/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_5.jpg?v=637511816299470000"
+        },
+        {
+          "id": 6,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34659671-92-110/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_6.jpg?v=637511816302300000"
+        }
+      ],
+      "carAmount": 6,
+      "singleAmount": "14,99",
+      "priceTotal": "89,99",
+      "favorite": true,
+      "colors": [
+        {
+          "id": 1,
+          "parentId": 1,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/34659665-1000-1200/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Cinza-Mescla-Claro-9976469-Cinza_Mescla_Claro_1.jpg?v=637511816284300000"
+        },
+        {
+          "id": 2,
+          "parentId": 5,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/34816023-90-90/Calca-de-Moletom-Jogger-Feminina-Cintura-Alta--New-York--com-Bolsos-Verde-9976469-Verde_1.jpg?v=637516854394030000"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "type": "PP",
+          "isHas": false
+        },
+        {
+          "id": 2,
+          "type": "P",
+          "isHas": true
+        },
+        {
+          "id": 3,
+          "type": "M",
+          "isHas": false
+        },
+        {
+          "id": 4,
+          "type": "G",
+          "isHas": true
+        },
+        {
+          "id": 5,
+          "type": "GG",
+          "isHas": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "pants",
+      "gender": "feminine",
+      "description": "calça legging feminina básica cintura alta preta",
+      "images": [
+        {
+          "id": 1,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/23864214-1000-1200/Calca-Legging-Feminina-Basica-Cintura-Alta-Preta-8556340-Preto_1.jpg?v=637449452177370000"
+        },
+        {
+          "id": 2,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/23864219-92-110/Calca-Legging-Feminina-Basica-Cintura-Alta-Preta-8556340-Preto_2.jpg?v=637449452180470000"
+        },
+        {
+          "id": 3,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/23864232-92-110/Calca-Legging-Feminina-Basica-Cintura-Alta-Preta-8556340-Preto_3.jpg?v=637449452188600000"
+        },
+        {
+          "id": 4,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/23864237-92-110/Calca-Legging-Feminina-Basica-Cintura-Alta-Preta-8556340-Preto_4.jpg?v=637449452190630000"
+        },
+        {
+          "id": 5,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/23864251-92-110/Calca-Legging-Feminina-Basica-Cintura-Alta-Preta-8556340-Preto_5.jpg?v=637449452198600000"
+        }
+      ],
+      "carAmount": 4,
+      "singleAmount": "8,99",
+      "priceTotal": "35,99",
+      "favorite": true,
+      "colors": [
+        {
+          "id": 1,
+          "parentId": 2,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/13070293-90-90/Calca-Legging-Feminina-Basica-Cintura-Alta-Vermelha-Escuro-8556340-Vermelho_Escuro_1.jpg?v=637217991652970000"
+        },
+        {
+          "id": 2,
+          "parentId": 8,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/20324130-90-90/Calca-Legging-Feminina-Basica-Verde-Militar-8556340-Verde_Militar_1.jpg?v=637411522732530000"
+        },
+        {
+          "id": 3,
+          "parentId": 10,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/1649951/Calca-Legging-Basica-Cinza-Mescla-8556340-Cinza_Mescla_1.jpg?v=636390209383330000"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "type": "PP",
+          "isHas": true
+        },
+        {
+          "id": 2,
+          "type": "P",
+          "isHas": false
+        },
+        {
+          "id": 3,
+          "type": "M",
+          "isHas": true
+        },
+        {
+          "id": 4,
+          "type": "G",
+          "isHas": false
+        },
+        {
+          "id": 5,
+          "type": "GG",
+          "isHas": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "shirt",
+      "gender": "feminine",
+      "description": "blusa feminina manga longa canelada cropped com aro decote reto preta",
+      "images": [
+        {
+          "id": 1,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845930-1000-1200/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_1.jpg?v=637487597057030000"
+        },
+        {
+          "id": 2,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845933-92-110/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_2.jpg?v=637487597061100000"
+        },
+        {
+          "id": 3,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845935-92-110/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_3.jpg?v=637487597064230000"
+        },
+        {
+          "id": 4,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845940-92-110/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_4.jpg?v=637487597068000000"
+        },
+        {
+          "id": 5,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845943-92-110/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_5.jpg?v=637487597071270000"
+        },
+        {
+          "id": 6,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/28845945-92-110/Blusa-Feminina-Manga-Longa-Cropped-Canelada-com-Aro-Decote-Reto-Preta-9989679-Preto_6.jpg?v=637487597074400000"
+        }
+
+      ],
+      "carAmount": 6,
+      "singleAmount": "8,33",
+      "priceTotal": "49,99",
+      "favorite": true,
+      "colors": [ ],
+      "sizes": [
+        {
+          "id": 1,
+          "type": "PP",
+          "isHas": false
+        },
+        {
+          "id": 2,
+          "type": "P",
+          "isHas": false
+        },
+        {
+          "id": 3,
+          "type": "M",
+          "isHas": false
+        },
+        {
+          "id": 4,
+          "type": "G",
+          "isHas": true
+        },
+        {
+          "id": 5,
+          "type": "GG",
+          "isHas": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "pants",
+      "gender": "male",
+      "description": "calça masculina esportiva ace jogger com bolsos chumbo",
+      "images": [
+        {
+          "id": 1,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394808-1000-1200/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_1.jpg?v=637510216987300000"
+        },
+        {
+          "id": 2,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394809-92-110/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_2.jpg?v=637510216991070000"
+        },
+        {
+          "id": 3,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394811-92-110/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_3.jpg?v=637510216993870000"
+        },
+        {
+          "id": 4,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394814-92-110/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_4.jpg?v=637510216996530000"
+        },
+        {
+          "id": 5,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394817-92-110/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_5.jpg?v=637510216999800000"
+        },
+        {
+          "id": 6,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/34394819-92-110/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_6.jpg?v=637510217002800000"
+        }
+
+      ],
+      "carAmount": 4,
+      "singleAmount": "8,99",
+      "priceTotal": "35,99",
+      "favorite": true,
+      "colors": [
+        {
+          "id": 1,
+          "parentId": 2,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/34394808-1000-1200/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Chumbo-9973348-Chumbo_1.jpg?v=637510216987300000"
+        },
+        {
+          "id": 2,
+          "parentId": 8,
+          "colorImagePath": "https://cea.vteximg.com.br/arquivos/ids/34354789-90-90/Calca-Masculina-Esportiva-Ace-Jogger-com-Bolsos-Cinza-Mescla-9973348-Cinza_Mescla_1.jpg?v=637510011477100000"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "type": "P",
+          "isHas": false
+        },
+        {
+          "id": 2,
+          "type": "M",
+          "isHas": true
+        },
+        {
+          "id": 3,
+          "type": "G",
+          "isHas": true
+        },
+        {
+          "id": 4,
+          "type": "GG",
+          "isHas": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "pijama",
+      "gender": "infantile",
+      "description": "pijama infantil manga longa bombeiro vermelho",
+      "images": [
+        {
+          "id": 1,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/35067649-1000-1200/Pijama-Infantil-Manga-Longa-Bombeiro-Vermelho-9978437-Vermelho_1.jpg?v=637523727754970000"
+        },
+        {
+          "id": 2,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/35067650-92-110/Pijama-Infantil-Manga-Longa-Bombeiro-Vermelho-9978437-Vermelho_2.jpg?v=637523727759030000"
+        },
+        {
+          "id": 3,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/35067651-92-110/Pijama-Infantil-Manga-Longa-Bombeiro-Vermelho-9978437-Vermelho_3.jpg?v=637523727762300000"
+        },
+        {
+          "id": 4,
+          "path": "https://cea.vteximg.com.br/arquivos/ids/35067652-92-110/Pijama-Infantil-Manga-Longa-Bombeiro-Vermelho-9978437-Vermelho_4.jpg?v=637523727765600000"
+        }
+      ],
+      "carAmount": 6,
+      "singleAmount": "9,99",
+      "priceTotal": "59,99",
+      "favorite": true,
+      "colors": [
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "type": "2",
+          "isHas": true
+        },
+        {
+          "id": 2,
+          "type": "4",
+          "isHas": true
+        },
+        {
+          "id": 3,
+          "type": "6",
+          "isHas": true
+        },
+        {
+          "id": 4,
+          "type": "8",
+          "isHas": true
+        },
+        {
+          "id": 5,
+          "type": "10",
+          "isHas": true
+        },
+        {
+          "id": 6,
+          "type": "12",
+          "isHas": true
+        }
+      ]
+    }
+  ]
+}

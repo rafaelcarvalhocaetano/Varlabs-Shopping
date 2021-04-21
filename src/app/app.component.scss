@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.example-container {
+  width: 100vw;
+  height: calc(100vh - 64px);
+}
+mat-drawer {
+  width: calc(100% - 70%);
+}
+
+.rollback {
+  position: fixed;
+  right: calc(100% - 95%);
+  bottom: calc(100% - 95%);
+  .icon {
+    color: #FFF;
+    font-weight: bold;
+  }
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  // justify-content: space-between;
+}

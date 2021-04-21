@@ -1,0 +1,27 @@
+<app-header (showSide)="drawer.toggle()"></app-header>
+<mat-drawer-container >
+  <mat-drawer #drawer>
+    <mat-selection-list #shoes [multiple]="false">
+      <mat-list-option *ngFor="let shoe of typesOfShoes; let i = index; let last = last" [value]="shoe" (click)="actionClick(shoe); drawer.toggle()">
+        <section class="row flex">
+          <mat-icon class="icon primary">{{ shoe.icon }}</mat-icon>
+          <span>{{ shoe.path }}</span>
+        </section>
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-drawer>
+  <mat-drawer-content class="example-container">
+    <router-outlet></router-outlet>
+    <button mat-fab color="accent" class="rollback" (click)="redirectRouter()">
+      <mat-icon class="icon">arrow_back</mat-icon>
+    </button>
+  </mat-drawer-content>
+</mat-drawer-container>
+<!-- <button mat-fab class="menu" [matMenuTriggerFor]="matMenu">
+  <mat-icon>menu</mat-icon>
+</button>
+
+<mat-menu #matMenu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu> -->

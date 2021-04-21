@@ -1,0 +1,125 @@
+
+
+$body: #303030;
+$primary: #303030;
+$green: #43c999;
+
+
+
+.mrg-10 {
+  margin: 10px;
+}
+.mrg-left-10 {
+  margin-left: 10px;
+}
+.mrg-bottom-10 {
+  margin-bottom: 10px;
+}
+.mrg-right-10 {
+  margin-right: 10px;
+}
+.mrg-top-10 {
+  margin-top: 10px;
+}
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  box-sizing: border-box;
+}
+.p10 {
+  padding: 10px;
+}
+.ptb10 {
+  padding: 10px 0;
+}
+.plr10 {
+  padding: 0 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  // height: 100vh;
+  height: 100%;
+  display: flex;
+}
+.nav-type {
+  background-color: $green;
+  a {
+    opacity: 1;
+    color: #FFFFFF;
+    // color: $green;;
+  }
+}
+
+.border {
+  border: 2px solid $green;
+  border-radius: 7px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+// fonts
+.fontweight {
+  font-weight: bold;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.primary {
+  color: $green;
+}
+.primary-background {
+  background-color: $green;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid #dad8d8;
+}
+
+.mat-accent {
+  .mat-pseudo-checkbox-checked {
+    background-color: $green;
+  }
+}
+.mat-fab.mat-accent, .mat-raised-button.mat-primary  {
+  background-color: $green;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: $green;
+  color: $green;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: $green;
+}
+.mat-radio-outer-circle {
+  border-color: transparent;
+}
+
+.mat-spinner circle {
+  stroke: $green;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}

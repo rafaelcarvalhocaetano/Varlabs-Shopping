@@ -1,0 +1,37 @@
+@import '../../../../assets/mixin.scss';
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  .btn-down, .btn-up {
+    width: 28px;
+    height: 30px;
+    // background-color: #43c999;
+    // color: #FFFFFF;
+    // box-shadow: 1px 1px 2px #CCCCCC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .images-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    @include scroll();
+    cursor: pointer;
+    .card-image > .image {
+      img {
+        width: 120px;
+      }
+    }
+  }
+}
+
+

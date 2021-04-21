@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <button mat-icon-button (click)="showSide.emit(true)"><mat-icon>menu</mat-icon></button>
+  <button class="btn fontweight size-14" (click)="routerNavigate('home')">Store</button>
+  <div class="sub-menu">
+
+    <!-- <input matInput class="border" [matDatepicker]="dp" >
+    <mat-datepicker-toggle class="primary" matSuffix [for]="dp"></mat-datepicker-toggle>
+    <mat-datepicker #dp></mat-datepicker> -->
+
+
+    <button mat-icon-button class="container-car" (click)="routerNavigate('store-car')">
+      <mat-icon>shopping_cart</mat-icon>
+      <span class="bell" *ngIf="counterCar > 0">{{ counterCar }}</span>
+    </button>
+    <button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon >account_circle</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Perfil</button>
+      <button mat-menu-item>Sair</button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

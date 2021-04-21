@@ -1,0 +1,54 @@
+.card {
+  max-width: 400px;
+  cursor: pointer;
+  img {
+    min-height: 300px;
+    max-height: 300px;
+  }
+  .description {
+    font-weight: 420;
+    font-size: 12px;
+    height: 40px;
+  }
+  .prices {
+    display: flex;
+    flex-direction: column;
+    span {
+      strong {
+        color: #000000;
+        font-weight: bold;
+      }
+      .plots {
+        font-size: 18px;
+        color: #000000;
+        font-weight: bold;
+        margin-right: 7px;
+      }
+      .pricePlots {
+        margin-left: 10px;
+        font-size: 18px;
+        color: #43c999;
+        font-weight: bold;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    max-width: 250px;
+    img {
+      min-height: 220px;
+      max-height: 220px;
+    }
+    .prices {
+      span {
+        .plots {
+          font-size: 12px;
+          margin-right: 2px;
+        }
+        .pricePlots {
+          margin-left: 2px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

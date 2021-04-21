@@ -1,0 +1,12 @@
+<mat-card class="card">
+  <img mat-card-image [src]="card.images[0].path" [alt]="card.type">
+  <mat-card-content>
+    <p class="description">{{ card.description }}</p>
+    <hr class="line">
+    <div class="prices">
+      <span>em até</span>
+      <span><strong class="plots">{{ card.carAmount }}X</strong> de <strong class="pricePlots">R$ {{ card.singleAmount }}</strong></span>
+      <span>ou R$ {{ card.priceTotal }} á vista</span>
+    </div>
+  </mat-card-content>
+</mat-card>

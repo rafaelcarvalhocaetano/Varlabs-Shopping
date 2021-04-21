@@ -1,0 +1,131 @@
+.details-product {
+  display: flex;
+  padding: 0 5%;
+  .images {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 60vh;
+    .carousel {
+      margin-right: 15px;
+    }
+    .img-zoom-details {
+      width: 50%;
+    }
+  }
+  .info-product {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-weight: bold;
+      line-height: 25px;
+    }
+    .values-products {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+      span {
+        font-size: 14px;
+        &:nth-child(1) {
+          margin-bottom: 10px;
+        }
+        strong {
+          font-weight: bold;
+          font-size: 18px;
+        }
+        .values {
+          color: #43c999;
+        }
+      }
+    }
+    .size-product {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0;
+      span {
+        margin-bottom: 10px;
+        font-weight: 550;
+      }
+      .checked {
+        width: 100%;
+        .button-type-checkbox {
+          margin-right: 10px;
+          border: 2px solid #CCCCCC;
+          color: #000000;
+          font-size: 16px;
+          font-weight: bold;
+          height: 40px;
+          width: 40px;
+          font-size: 14px;
+          &.selected_size {
+            background-color: #43c999;
+            color: #FFFFFF;
+          }
+          &:hover {
+            background-color: #43c999;
+            color: #FFFFFF;
+          }
+          &:disabled {
+            background-color: #CCCCCC;
+            &:hover {
+              color: #000000;
+            }
+          }
+
+        }
+      }
+    }
+    .action {
+      .button-sale {
+        width: 100%;
+        height: 45px;
+        &:nth-child(1) {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1360px) {
+  .details-product {
+    .images {
+      width: 100%;
+      margin: 0 auto;
+      .carousel {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .details-product {
+    flex-direction: column;
+    padding: 10px;
+    .images {
+      width: 100%;
+      margin: 0 auto;
+      .carousel {
+        width: 15%;
+        margin-right: 10px;
+      }
+      .img-zoom-details {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        @media (min-width: 700px) and (max-width: 1023px) {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .details-product {
+    .images > .carousel {
+      display: none;
+    }
+  }
+}

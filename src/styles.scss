@@ -1,0 +1,22 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import './assets/reset.scss';
+@import './assets/global.scss';
+
+
+
+@for $i from 1 to 13 {
+
+  @if $i > 12 {
+    .col-12 {
+      background-color: red;
+      display: none;
+    }
+  }
+  .col-#{$i} {
+    width: 8.333% * $i;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+  }
+}

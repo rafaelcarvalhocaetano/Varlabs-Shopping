@@ -1,0 +1,40 @@
+<div class="center" *ngIf="loader">
+  <mat-spinner></mat-spinner>
+</div>
+<div class="details-product" *ngIf="!loader">
+  <div class="images">
+    <div class="carousel">
+      <app-carousel-images [listImges]="productDetail?.images || []" ></app-carousel-images>
+    </div>
+    <img class="img-zoom-details" [src]="productDetail?.images[0]?.path" [alt]="productDetail?.type">
+  </div>
+  <div class="info-product">
+    <p>{{ productDetail?.description }}</p>
+    <div class="values-products">
+      <span>em até <strong>{{ productDetail?.carAmount }}X</strong> de <strong class="values">R$ {{ productDetail?.singleAmount }}</strong></span>
+      <span>ou <strong>R$ {{ productDetail?.priceTotal }}</strong> á vista</span>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="size-product" *ngIf="productDetail?.sizes.length">
+      <span>escola o tamanho:</span>
+      <div class="checked">
+        <button class="btn button-type-checkbox"
+          *ngFor="let item of productDetail?.sizes"
+          [ngClass]="{'selected_size': selectedSize === item }"
+          [disabled]="item.isHas" (click)="selectSize(item)">{{ item?.type }}</button>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="action">
+      <button mat-raised-button color="primary" class="button-sale" (click)="addItemCar()">
+        <mat-icon aria-hidden="false" aria-label="Add car">add_shopping_cart</mat-icon>
+        Adicionar ao carrinho
+      </button>
+      <button mat-raised-button color="primary" class="button-sale" (click)="navigationCar()">
+        <mat-icon aria-hidden="false" aria-label="Finish car">shopping_cart</mat-icon>
+        Finalizar compra
+      </button>
+    </div>
+  </div>
+</div>
+

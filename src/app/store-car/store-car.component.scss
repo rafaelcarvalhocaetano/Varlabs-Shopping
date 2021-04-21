@@ -1,0 +1,27 @@
+.container-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  .icon, h1 {
+    color: #43c999;
+    font-weight: bold;
+    font-size: 34px;
+  }
+}
+.row {
+  .column {
+    width: 70%;
+    .item-product {
+      margin: 10px 0;
+    }
+  }
+
+  .finish-payment {
+    height: 100%;
+    width: 30%;
+    background-color: aquamarine;
+  }
+}

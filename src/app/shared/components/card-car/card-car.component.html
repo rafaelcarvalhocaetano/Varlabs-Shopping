@@ -1,0 +1,28 @@
+<section class="container">
+  <div class="image-and-description">
+    <img class="image-product" [src]="product.images[0].path" alt="">
+    <div class="container-description">
+      <span class="description-store-car">{{ product.description }}</span>
+      <button class="btn-clear" (click)="removeOfCar(product)">
+        <mat-icon>delete_outline</mat-icon>
+        <span>Excluir da sacola</span>
+      </button>
+    </div>
+  </div>
+  <div class="row-car">
+    <div class="count-value">
+      <span class="value-total">Valor</span>
+      <span class="totalAmount">{{ product.priceTotal }}</span>
+    </div>
+    <div class="removed-or-added" >
+      <button class="btn removed" (click)="removedCar()"><span>-</span></button>
+      <input type="number" class="total" [formControl]="amountValue">
+      <button class="btn added" (click)="addedCar()"><span>+</span></button>
+    </div>
+    <div class="count-value">
+      <span class="value-total">Total</span>
+      <span class="totalAmount" *ngIf="somaValores === 0">{{ valueTotal }}</span>
+      <span class="totalAmount" *ngIf="somaValores > 0">{{ somaValores }}</span>
+    </div>
+  </div>
+</section>

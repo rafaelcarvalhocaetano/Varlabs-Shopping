@@ -1,0 +1,15 @@
+<div class="container" *ngIf="listImges?.length">
+  <button class="btn btn-up" (click)="scrollUp()">
+    <mat-icon aria-hidden="false" aria-label="Example home icon">expand_less</mat-icon>
+  </button>
+  <div class="images-vertical" #arrow_scroll>
+    <ul class="card-image">
+      <li class="image" *ngFor="let img of listImges">
+        <img [src]="img.path" alt="img">
+      </li>
+    </ul>
+  </div>
+  <button class="btn btn-down" (click)="scrollDown()">
+    <mat-icon aria-hidden="false" aria-label="Example home icon">expand_more</mat-icon>
+  </button>
+</div>

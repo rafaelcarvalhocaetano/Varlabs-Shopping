@@ -1,0 +1,5 @@
+<nav mat-tab-nav-bar mat-align-tabs="center" class="nav-type">
+  <a mat-tab-link *ngFor="let category of categorias"
+  (click)="redirectCategory(category)"> {{ category }} </a>
+</nav>
+<router-outlet></router-outlet>

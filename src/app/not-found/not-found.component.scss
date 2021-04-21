@@ -1,0 +1,15 @@
+.not-found {
+  background-color: #5f5f5f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 28px;
+  }
+}

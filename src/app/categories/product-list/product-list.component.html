@@ -1,0 +1,16 @@
+<!-- <button (click)="redirectRouter(1)">Product Selecionado</button> -->
+<div class="column">
+  <div class="row">
+    <div class="items" *ngIf="productTypes.length">
+      <div class="element-card" *ngFor="let product of productTypes">
+        <app-card [card]="product" (click)="redirectRouter(product)"></app-card>
+      </div>
+    </div>
+    <section class="notfound-product" *ngIf="!productTypes.length">
+     <article class="border">
+        <h1 class="info">Sem Produtos dessa categoria</h1>
+        <mat-icon class="icon">do_disturb</mat-icon>
+     </article>
+    </section>
+  </div>
+</div>

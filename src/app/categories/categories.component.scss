@@ -1,0 +1,14 @@
+
+.line-buttons {
+  display: flex;
+  box-sizing: border-box;
+  .btn-genre {
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #212b36;
+    color: #FFFFFF;
+    font-weight: bold;
+    // margin: 10px;
+  }
+}
